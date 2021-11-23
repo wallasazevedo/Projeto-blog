@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contato.css">
+
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <nav class="box-grid">
+            <h3>Blog</h3>
+            <ul>
+                <li><a href="./index.html">blog</a></li>
+                <li><a class="link-ativo" href="#">contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="box-grid">
+        <section>
+            <div>
+                <h2 class="conteudo-titulo">Entre em contato conosco</h2>
+                <p class="conteudo-paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Pariatur ex minus, dolores dolore nemo facere amet rem expedita aliquid,
+                    dio dolorum voluptatum mollitia doloribus eius aut quod tempore iure quasi?
+                </p>
+            </div>
+
+            <form action="" id="form-contato"> <!-- action é aonde será enviado, geralmente usado alguma linguagem de backend como php, jsp, etc -->
+
+                <div id="contatos-inputs">
+                    <div>
+                        <label for="nome">Nome</label> <input type="text" placeholder="Ex: Gabriel Schmit">
+                        <label for="E-mail">E-mail</label> <input type="email" id="email" placeholder="Ex: gabrielshmit@gmail.com">                           
+                    </div>
+                    <label for="mensagem">Mensagem</label> <textarea id="mensagem" rows="1" maxlength="280" placeholder="Escreva sua mensagem aqui..."></textarea>
+                </div>
+
+                <button type="submit">Entrar em contato</button>
+
+            </form>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <footer>
+            <p class="box-grid"> Essa página foi inspirada no Desafio 1 do <a class="link-ativo"
+                    href="https://github.com/iuricode" target="_blank">@iuricode</a>
+                para fins educacionais.</p>
+        </footer>
+    </footer>
+</body>
+
+</html>

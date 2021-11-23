@@ -1,0 +1,12 @@
+ *{
+        margin: 0;
+        padding: 0;
+    }
+
+
+.contatos-inputs {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    
+}
