@@ -5,59 +5,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/contato.css">
-
-    <title>Contato</title>
-</head>
+    <script src="https://kit.fontawesome.com/3960eefee2.js" crossorigin="anonymous"></script>
 
 <body>
     <header>
         <nav class="box-grid">
             <h3>Blog</h3>
             <ul>
-                <li><a href="./index.html">blog</a></li>
-                <li><a class="link-ativo" href="#">contato</a></li>
+                <li><a href="index.html">blog</a></li>
+                <li><a class="link-ativo" href="./contato.html">contato</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="box-grid">
-        <section>
+        <section id="contato-section">
+
             <div>
-                <h2 class="conteudo-titulo">Entre em contato conosco</h2>
-                <p class="conteudo-paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Pariatur ex minus, dolores dolore nemo facere amet rem expedita aliquid,
-                    dio dolorum voluptatum mollitia doloribus eius aut quod tempore iure quasi?
-                </p>
+                <h2 class="conteudo-titulo">Entre em contato com a gente!</h2>
+                <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, accusamus
+                    placeat? Possimus, earum. Molestiae nam corrupti sequi veritatis velit minus officia, perferendis ut
+                    libero optio! Voluptatem consequuntur commodi iusto vero?</p>
             </div>
 
-            <form action="" id="form-contato"> <!-- action é aonde será enviado, geralmente usado alguma linguagem de backend como php, jsp, etc -->
+            <form id="form-contato">
+                <div id="contato-inputs">
 
-                <div id="contatos-inputs">
-                    <div>
-                        <label for="nome">Nome</label> <input type="text" placeholder="Ex: Gabriel Schmit">
-                        <label for="E-mail">E-mail</label> <input type="email" id="email" placeholder="Ex: gabrielshmit@gmail.com">                           
+                    <div id="input-acima">
+
+                        <div class="input-contato">
+                            <label for="nome">Nome</label>
+                            <input class="estilo-input" id="nome" type="text" placeholder="Gabriel Schmit ">
+                        </div>
+
+                        <div class="input-contato">
+                            <label for="email">E-mail</label>
+                            <input class="estilo-input" id="email" type="text" placeholder="gabrielschmit@email.com">
+                        </div>
+                        
                     </div>
-                    <label for="mensagem">Mensagem</label> <textarea id="mensagem" rows="1" maxlength="280" placeholder="Escreva sua mensagem aqui..."></textarea>
+
+                    <div id="textarea-contato">
+                        <label for="mensagem"> Mensagem</label>
+                        <textarea class="estilo-input" id="mensagem" rows="1" maxlength="280" placeholder="Digite sua mensagem"></textarea>
+                    </div>
+                   
                 </div>
-
-                <button type="submit">Entrar em contato</button>
-
+                <button id="botao-contato"  type="submit">Enviar Mensagem</button>
             </form>
-
         </section>
-
-
     </main>
 
     <footer>
-        <footer>
-            <p class="box-grid"> Essa página foi inspirada no Desafio 1 do <a class="link-ativo"
-                    href="https://github.com/iuricode" target="_blank">@iuricode</a>
-                para fins educacionais.</p>
-        </footer>
+        <p class="box-grid">Minha primeira página HTML SENAI INFORMÁTICA <a class="link-ativo"
+                href="https://github.com/iuricode" target="_blank">@iuricode</a> para fins Educacionais 2021.</p>
     </footer>
 </body>
-
-</html>
+<html>
