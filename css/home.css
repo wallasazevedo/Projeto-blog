@@ -23,6 +23,14 @@
     color: #BC3FDB;
 }
 
+.cabecalho-icone:hover::before {
+    /* font-family: "Font Awesone" 5 Solid;
+    content: ".\f004"; */
+    cursor: pointer;
+    font-weight: 900;
+}
+
+
 .conteudo-img{
     width: 100%;
     height: 250px;
